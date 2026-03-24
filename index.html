@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>External CSS Example</title>
+
+    <!-- Linking CSS file -->
+    <link rel="stylesheet" href="style.css">
         <title>Crime Tracker</title>
         <link rel="icon" href="OIHE480.jpg">
     </head>
@@ -9,8 +13,8 @@
     <meta name="description" content="Complete portfolio, initial-scale=1.0">
     <meta name="keywords" content="e-commerce,gym-wear, medicine, initial-scale=1.0">
     <meta name="Author" content="Sakib, initial-scale=1.0">
-    <meta http-equiv="refresh" content="5">
-    <meta http-equiv="refresh" content="0; url=https://dnsakibss.github.io/Web_Development/">
+   <!---- <meta http-equiv="refresh" content="5">-->
+   <!---- <meta http-equiv="refresh" content="0; url=https://dnsakibss.github.io/Web_Development/">-->
     <meta property="og:site_name" content="Learn Meta Data">
     <meta property="og:url" content="www.metadata.com">
     <meta property="og:title" content="Learn Meta Data">
@@ -22,11 +26,17 @@
     <meta http-equiv="pragma" content="="no-cache">
     <header>
         <nav>
-            Buttons
         </nav>
     </header>
-    <body>
-        <h1>Crime Tracker</h1>
+    <body style="background-color: beige;"><!--INLINE CSS-->
+        <h1 style="color: dimgray;">Crime Tracker</h1><!--INLINE CSS-->
+
+
+        <style>
+            p{
+                color:black;   
+            }
+        </style>
         <p>The only way to become great is through s,
             <br> is only way to become great
         </p>
@@ -50,7 +60,7 @@
         </table>
         <form action="NextPage.html">
             <br><br>
-            <text>Email: </text>
+            <label>Email:</label>
             <input type="email">
             <br><br>
             <text>Password: </text>
